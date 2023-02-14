@@ -6,7 +6,7 @@ package googleworkspace
 import (
 	"fmt"
 	"io/ioutil"
-	"log"
+	log "github.com/sirupsen/logrus"
 	"net/mail"
 	"os"
 	"reflect"
