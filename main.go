@@ -6,7 +6,7 @@ package main
 import (
 	"context"
 	"flag"
-	"log"
+	log "github.com/sirupsen/logrus"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
 	"github.com/hashicorp/terraform-provider-googleworkspace/internal/provider"
